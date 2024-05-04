@@ -4,6 +4,6 @@ public interface C extends A {
 
     @Override
     default void foo() {
-        System.out.println("C");
+        System.out.println("calling interface C");
     }
 }

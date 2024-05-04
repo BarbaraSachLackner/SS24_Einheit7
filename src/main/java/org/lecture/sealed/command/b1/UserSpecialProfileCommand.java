@@ -1,6 +1,6 @@
-package org.lecture.sealed.command;
+package org.lecture.sealed.command.b1;
 
-public class UserSpecialProfileCommand extends UserProfileCommand{
+public class UserSpecialProfileCommand extends UserProfileCommand {
 
     @Override
     public void perform() {

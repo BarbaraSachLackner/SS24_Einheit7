@@ -1,4 +1,4 @@
-package org.lecture.sealed.command;
+package org.lecture.sealed.command.b2;
 
 public final class LogoutCommand extends Command {
     @Override

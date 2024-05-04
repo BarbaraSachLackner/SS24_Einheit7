@@ -5,11 +5,11 @@ public interface Drawable {
     void draw();
 
     default void draw(int x, int y, int width, int height) {
-        foo();
+        calcuclateCoordinates();
         System.out.println("Drawing...");
     }
 
-    private void foo() {
-        System.out.println("foo()");
+    private void calcuclateCoordinates() {
+        System.out.println("Calculating coordinates...");
     }
 }
